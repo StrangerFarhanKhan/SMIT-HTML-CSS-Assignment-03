@@ -1,0 +1,273 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgb(233, 247, 247);
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    position: fixed !important;
+    background-color: #e0e7ee !important;
+    z-index: 1;
+}
+
+.menu-item a {
+    color: rgb(18, 18, 19) !important;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    width: 40px;
+    height: 35px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 50%;
+    margin-left: 10px;
+    align-self: center;
+
+}
+
+.abc {
+    margin-left: 300px;
+}
+
+.logo a {
+    margin-left: 30px;
+    color: #3563E9;
+    text-decoration: none !important;
+}
+
+.list {
+    font-size: large;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+
+
+.main-box {
+    display: flex;
+}
+
+.container {
+    /* background-color: #2b68b3; */
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 250px);
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ffff;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-name-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-box {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.car-img {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+    color: #90A3bf;
+}
+
+.card-price-btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90A3bf;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #3563e9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-2 {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.btn-2 button {
+    color: white;
+    background-color: #3563e9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d4dae4;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(188, 202, 198);
+
+    padding: 10px;
+}
+
+.slider {
+    width: 20%;
+    padding: 20px;
+    /* justify-content: center; */
+
+    background-color: rgb(238, 230, 247);
+}
+
+/* Details page Css */
+
+
+.container-00 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(203, 228, 220);
+    gap: 45px;
+}
+
+.card-00 {
+    background-color: #90A3bf;
+    width: 100%;
+    padding: 30px;
+}
+
+/* payments page Css */
+
+.payment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(221, 240, 240);
+    width: 100% !important;
+    height: 700px;
+    margin-top: 70px;
+    /* margin-top: 100px; */
+
+}
+
+.pay-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 600px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.pay-cont-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 600px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.box {
+    background-color: #3563e9;
+
+}
+
+#box-1 {
+    width: 50%;
+    height: 40%;
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#box-2 {
+    width: 50%;
+    height: 40%;
+    background-color: violet;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#box-3 {
+    width: 50%;
+    height: 40%;
+    background-color: #90A3bf;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#box-4 {
+    width: 50%;
+    height: 40%;
+    background-color: tomato;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#box-5 {
+    width: 50%;
+    height: 40%;
+    background-color: wheat;
+    padding: 25px;
+    border-radius: 10px;
+}
